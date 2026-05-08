@@ -341,7 +341,13 @@ void menu(struct simulador *sim) {
     int op;
 
     do {
-        printf("\n1-Memoria  2-Regs  3-RUN  4-STEP  5-PC  0-Sair\n");
+        printf("\n
+            1-Memoria
+            2-Regs 
+            3-RUN
+            4-STEP
+            5-PC
+            0-Sair\n");
         scanf("%d", &op);
 
         switch(op) {

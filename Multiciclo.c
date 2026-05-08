@@ -35,7 +35,7 @@ struct instrucao {
 //  MEMORIA 
 struct memoria_unificada {
 
-    // memória de instruções
+    // memória de instruções guarda instruções
     char instr_mem[MEM_SIZE][INSTR_SIZE + 1];
 
     // memória de dados
